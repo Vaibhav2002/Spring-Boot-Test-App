@@ -4,3 +4,6 @@ app:
     username: postgres
     password: postgres
     pool-size: 30
+
+server:
+  port=${PORT:8080}:

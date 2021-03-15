@@ -18,6 +18,7 @@ public class PersonApiController {
         return personService.insertPerson(new Person(person.getFirstName(), person.getLastName()));
     }
 
+    @GetMapping
     List<Person> getAllPersons() {
         return personService.getAllPersons();
     }
